@@ -24,5 +24,15 @@ namespace EersteProjectGitHub
         {
             InitializeComponent();
         }
+
+        private void btnTest_Click(object sender, RoutedEventArgs e)
+        {
+            ChangeText();
+        }
+
+        private void ChangeText()
+        {
+            lblHello.Content = "Hello World";
+        }
     }
 }
